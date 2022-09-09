@@ -38,7 +38,7 @@ CREATE TABLE emp(
    emp_role text
    );
    
-##### Insert Query ###
+### Insert Query ###
 
 INSERT INTO emp (emp_id, emp_name, emp_city,
    emp_phone, emp_sal) VALUES(1,'Dinesh', 'Coimbatore', 12345, 45000);
