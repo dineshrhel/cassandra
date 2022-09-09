@@ -23,8 +23,12 @@ Note: Where nodetool gives many info with different parrameters about your clust
 
 ### Create keyspace(Database) with Specified your Cluster Name ####
 
-CREATE KEYSPACE test_keyspace1
+CREATE KEYSPACE test_keyspace
 WITH replication = {'class':'NetworkTopologyStrategy', 'DC1' : 3};
+
+### Use Keyspace ###
+
+use test_keyspace;
 
 
 ### Create table ###
