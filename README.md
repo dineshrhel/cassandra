@@ -8,6 +8,15 @@
 
 #kubectl apply -f deploy.yaml
 
+### To Login Kubernetes Pod ###
+
+#kubectl exec -it <pod-name> -- /bin/bash
+	
+Ex:
+==
+	
+#kubectl exec -it cassandra-0 -- /bin/bash
+
 
 ### Cassendra Cluster Info ###
 
@@ -39,7 +48,6 @@ CREATE TABLE emp(
    emp_city text,
    emp_sal varint,
    emp_phone varint
-   emp_role text
    );
    
 ### Insert Query ###
